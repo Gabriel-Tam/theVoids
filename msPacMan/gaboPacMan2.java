@@ -31,9 +31,9 @@ public class gaboPacMan2 extends PacmanController {
     	
 		
     	
-    	SimpleState state1 = new SimpleState("state1", new RandomAction());
-    	SimpleState state2 = new SimpleState("state2", new RandomAction());
-    	SimpleState state3 = new SimpleState("state3", new RandomAction());
+    	SimpleState state1 = new SimpleState("state1", new ());
+    	SimpleState state2 = new SimpleState("state2", new ());
+    	SimpleState state3 = new SimpleState("state3", new ());
     	
     	Transition tran1 = new RandomTransition(.3);
     	Transition tran2 = new RandomTransition(.2);
